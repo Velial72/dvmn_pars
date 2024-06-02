@@ -19,6 +19,10 @@ def get_book_info(book_id = id):
     soup = BeautifulSoup(response.text, 'lxml')
     title_tag = soup.find('h1')
     clear_title = title_tag.text.split('::')
+    comments_tag = soup.find(id='content').find_all(class_='black')
+    comments = [commit.text for commit in comments_tag]
+    for i in comments:
+        print(i)
     # book_author =  clear_title[1].strip()
     book_name = clear_title[0].strip()
 
