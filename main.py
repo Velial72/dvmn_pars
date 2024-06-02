@@ -11,7 +11,7 @@ def check_for_redirect(response):
         raise HTTPError(f'error')
 
 
-def get_book_info(book_id = id):
+def parse_book_page(book_id = id):
     url = f'http://tululu.org/b{book_id}/'
     response = requests.get(url)
     response.raise_for_status()
@@ -66,7 +66,7 @@ def download_txt(folder='books/'):
             print(http_err)
             continue
         
-        filename = get_book_info(id)
+        filename = parse_book_page(id)
         book_name = sanitize_filename(filename=filename)
         book_path = sanitize_filepath(os.path.join(folder, f'{id}.{book_name}.txt'))
 
