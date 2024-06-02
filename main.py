@@ -19,12 +19,26 @@ def get_book_info(book_id = id):
     soup = BeautifulSoup(response.text, 'lxml')
     title_tag = soup.find('h1')
     clear_title = title_tag.text.split('::')
+    
+    book_author =  clear_title[1].strip()
+    book_name = clear_title[0].strip()
+
+    print(book_name)
+    print()
+    print(book_author)
+    print()
+
+    genres_tag = soup.find('span', class_='d_book').find_all('a')
+    book_genre = [genre.text for genre in genres_tag]
+    print(book_genre)
+
     comments_tag = soup.find(id='content').find_all(class_='black')
     comments = [commit.text for commit in comments_tag]
-    for i in comments:
-        print(i)
-    # book_author =  clear_title[1].strip()
-    book_name = clear_title[0].strip()
+
+    # for i in comments:
+    #     print(i)
+    print()
+    print()
 
     img_tag = soup.find('div', class_='bookimage').find('img')['src']
     book_image = urljoin('https://tululu.org/', img_tag)
