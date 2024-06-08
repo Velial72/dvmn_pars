@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests.exceptions import HTTPError
 from pathvalidate import sanitize_filename, sanitize_filepath
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 
 def check_for_redirect(response):
