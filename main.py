@@ -1,8 +1,9 @@
 import requests
+from time import sleep
 from requests.exceptions import HTTPError
 import argparse
 
-from help_functions import download_txt, check_for_redirect
+from help_functions import parse_book_page, download_txt, download_image, check_for_redirect
 
 
 def main():
@@ -19,19 +20,29 @@ def main():
                         default=10)
     args = parser.parse_args()
 
-    for id in range(args.start_id, args.end_id+1):
-        payload = {'id': id}
-        download_url = f'{main_page}txt.php'
-        response = requests.get(download_url, params=payload)
-        response.raise_for_status()
-
-        try:    
-            check_for_redirect(response)
-        except HTTPError as http_err:
-            print(http_err)
-            continue
-        
-        download_txt(url=main_page, response=response, id=id)
+    for book_id in range(args.start_id, args.end_id+1):
+        book_url = f'{main_page }b{book_id}/'
+        conn = True
+        while conn:
+            try:   
+                response = requests.get(book_url, allow_redirects=False)
+                response.raise_for_status()
+                check_for_redirect(response, file=f'book_id {book_id}')
+                book_response_content = response.content
+                parsed_book_page = parse_book_page(book_html=book_response_content, url=book_url)
+                book_title = parsed_book_page.get('title')
+                download_txt(url=parsed_book_page.get('txt_url'),
+                                filename=f'{book_id} {book_title}')
+                download_image(url=parsed_book_page.get('image_url'))
+                conn = False
+            except HTTPError as http_err:
+                print(http_err)
+                conn = False
+            except requests.exceptions.ConnectionError as conn_err:
+                print(conn_err)
+                sleep(180)
+            
+           
 
 
 if __name__ == '__main__':
