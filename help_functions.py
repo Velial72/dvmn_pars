@@ -53,7 +53,7 @@ def parse_book_page(book_html: bytes, url):
 
     book_txt_tag = soup.find(id='content').find(
                     'a', title=f'{title} - скачать книгу txt')
-    if book_txt_tag is None:
+    if book_txt_tag:
         raise HTTPError('Книга не найдена')
     txt_relative_link = book_txt_tag["href"]
     txt_url = urljoin(url, txt_relative_link)
