@@ -12,7 +12,7 @@ def check_for_redirect(response: requests.models.Response):
         raise HTTPError(f'Data not found.')
 
 
-def download_txt(url, filename, folder='books/'):
+def download_txt(url, filename, folder):
     os.makedirs(folder, exist_ok=True)
         
     book_name = sanitize_filename(filename=filename)
@@ -25,8 +25,8 @@ def download_txt(url, filename, folder='books/'):
     print('Книга скачана')
 
 
-def download_image(url, folder='images/'):
-    os.makedirs('images/', exist_ok=True)
+def download_image(url, folder):
+    os.makedirs(folder, exist_ok=True)
 
     response = requests.get(url, allow_redirects=False)
     response.raise_for_status()

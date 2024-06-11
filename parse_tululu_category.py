@@ -6,11 +6,52 @@ from time import sleep
 from urllib.parse import urljoin
 from help_functions import parse_book_page, download_txt, download_image, check_for_redirect
 from requests.exceptions import HTTPError
+import argparse
+from pathlib import Path
 
 
 def main():
+    base_dir = Path(__file__).resolve().parent
+    path_to_dir = base_dir
     all_books_info = []
     main_page = f'https://tululu.org/'
+
+    response = requests.get(url=f'{main_page}l55/')
+    response.raise_for_status()
+    soup = BeautifulSoup(response.content, 'lxml')
+    page_select = '.npage'
+    pages = soup.select(selector=page_select)
+    last_page = pages[-1]
+
+    parser = argparse.ArgumentParser(description='Тут можно задать с какой по какую страницы скачать')
+    parser.add_argument('-sp', '--start_page', 
+                        help='с какой страницы качать', 
+                        type=int, 
+                        default=1)
+    parser.add_argument('-ep', '--end_page', 
+                        help='с какого до какой страницы качать', 
+                        type=int, 
+                        default=int(last_page.text))
+    parser.add_argument('-f', '--dest_folder', 
+                        help='указать название директории для загрузок', 
+                        type=str)
+    parser.add_argument('-i', '--skip_imgs', 
+                        help='не скачивать картинки', 
+                        action='store_true')
+    parser.add_argument('-t', '--skip_txt', 
+                        help='не скачивать книги', 
+                        action='store_true')
+    
+    args = parser.parse_args()
+    start_page = args.start_page
+    end_page = args.end_page
+
+    if end_page:
+        end_page +=1
+
+    if args.dest_folder:
+        os.makedirs(args.dest_folder, exist_ok=True)
+        path_to_dir = base_dir.joinpath(args.dest_folder)
 
     if os.path.exists('Book_info.json'):
         with open('Book_info.json', 'r', encoding='utf8') as json_file:
@@ -19,7 +60,7 @@ def main():
             except json.JSONDecodeError:
                 all_books_info = []
 
-    for page in range(1, 2):
+    for page in range(start_page, end_page):
         
         response = requests.get(url=f'{main_page}l55/{page}/')
         response.raise_for_status()
@@ -43,15 +84,18 @@ def main():
                     book_response_content = response.content
                     parsed_book_page = parse_book_page(book_html=book_response_content, url=book_url)
                     book_title = parsed_book_page.get('title')
-                    download_txt(url=parsed_book_page.get('txt_url'),
-                                    filename=f'{book_title}')
-                    download_image(url=parsed_book_page.get('image_url'))
+                    if args.skip_txt == False:
+                        download_txt(url=parsed_book_page.get('txt_url'),
+                                        filename=f'{book_title}', folder=f'{path_to_dir}/books/')
+                    if args.skip_imgs == False:    
+                        download_image(url=parsed_book_page.get('image_url'), folder=f'{path_to_dir}/images/')
 
                     parsed_book_page.pop('txt_url', None)
                     parsed_book_page.pop('image_url', None)
                     all_books_info.append(parsed_book_page
                                           )
-                    with open('Book_info', 'w', encoding='utf8') as json_file:
+                    file_path = path_to_dir / 'Book_info.json'
+                    with open(file_path, 'w', encoding='utf8') as json_file:
                         json.dump(all_books_info, json_file, ensure_ascii=False, indent=4)
                     conn = False
                 except HTTPError as http_err:
