@@ -10,6 +10,7 @@ from requests.exceptions import HTTPError
 
 def main():
     all_books_info = []
+    main_page = f'https://tululu.org/'
 
     if os.path.exists('Book_info.json'):
         with open('Book_info.json', 'r', encoding='utf8') as json_file:
@@ -19,16 +20,17 @@ def main():
                 all_books_info = []
 
     for page in range(1, 2):
-        main_page = f'https://tululu.org/l55/{page}/'
-        response = requests.get(url=main_page)
+        
+        response = requests.get(url=f'{main_page}l55/{page}/')
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'lxml')
-        book_tags = soup.find('div', id='content').find_all(class_='d_book')
+        book_selector = '.d_book'
+        book_tags = soup.select(selector=book_selector)
+
         for book_tag in book_tags:
-            book_url_tag = book_tag.find('a')['href']
+            book_url_tag = book_tag.select_one(selector=('a'))['href']
             book_url = urljoin(main_page, book_url_tag)
-            print(book_url)
             conn = True
             while conn:
                 try:   
