@@ -27,7 +27,7 @@ def main():
             try:   
                 response = requests.get(book_url, allow_redirects=False)
                 response.raise_for_status()
-                check_for_redirect(response, file=f'book_id {book_id}')
+                check_for_redirect(response)
                 book_response_content = response.content
                 parsed_book_page = parse_book_page(book_html=book_response_content, url=book_url)
                 book_title = parsed_book_page.get('title')

@@ -6,10 +6,10 @@ from pathvalidate import sanitize_filename, sanitize_filepath
 from urllib.parse import urljoin
 
 
-def check_for_redirect(response: requests.models.Response, file):
+def check_for_redirect(response: requests.models.Response):
     '''Checks for redirects and, if so, raises an HTTPError'''
     if response.is_redirect:
-        raise HTTPError(f'Data for {file} not found.')
+        raise HTTPError(f'Data not found.')
 
 
 def download_txt(url, filename, folder='books/'):
@@ -18,7 +18,7 @@ def download_txt(url, filename, folder='books/'):
     book_name = sanitize_filename(filename=filename)
     book_path = sanitize_filepath(os.path.join(folder, f'{id}.{book_name}.txt'))
     book_response = requests.get(url)
-    check_for_redirect(book_response,  file=filename)
+    check_for_redirect(book_response)
     book_response.raise_for_status()
     with open(book_path, 'wb') as file:
         file.write(book_response.content)
