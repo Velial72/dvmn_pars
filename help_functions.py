@@ -73,3 +73,14 @@ def parse_book_page(book_html: bytes, url):
         'txt_url': txt_url,
         'image_url': book_image,
     }
+
+
+def get_last_page(url):
+    response = requests.get(url=f'{url}l55/')
+    response.raise_for_status()
+    soup = BeautifulSoup(response.content, 'lxml')
+    page_select = '.npage'
+    pages = soup.select(selector=page_select)
+    last_page_tag = pages[-1]
+    last_page = last_page_tag.text
+    return int(last_page)
