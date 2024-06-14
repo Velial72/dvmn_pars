@@ -1,13 +1,21 @@
-import os
-import requests
+import argparse
 import json
-from bs4 import BeautifulSoup
+import os
+from pathlib import Path
 from time import sleep
 from urllib.parse import urljoin
-from help_functions import parse_book_page, download_txt, download_image, check_for_redirect, get_last_page_number
+
+import requests
+from bs4 import BeautifulSoup
 from requests.exceptions import HTTPError
-import argparse
-from pathlib import Path
+
+from help_functions import (
+    parse_book_page, 
+    download_txt, 
+    download_image, 
+    check_for_redirect, 
+    get_last_page_number
+)
 
 
 def main():

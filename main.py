@@ -1,9 +1,15 @@
-import requests
-from time import sleep
-from requests.exceptions import HTTPError
 import argparse
+from time import sleep
 
-from help_functions import parse_book_page, download_txt, download_image, check_for_redirect
+import requests
+from requests.exceptions import HTTPError
+
+from help_functions import (
+    parse_book_page, 
+    download_txt, 
+    download_image, 
+    check_for_redirect
+)
 
 
 def main():
