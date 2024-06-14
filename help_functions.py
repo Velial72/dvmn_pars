@@ -10,7 +10,7 @@ def check_for_redirect(response: requests.models.Response):
     '''Checks for redirects and, if so, raises an HTTPError'''
     if response.is_redirect:
         raise HTTPError(f'Data not found.')
-
+    
 
 def download_txt(url, filename, folder):
     os.makedirs(folder, exist_ok=True)

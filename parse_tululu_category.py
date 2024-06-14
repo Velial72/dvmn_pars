@@ -64,6 +64,9 @@ def main():
             response.raise_for_status()
         except HTTPError as http_err:
                     print(http_err)
+        except requests.exceptions.ConnectionError as conn_err:
+                print(conn_err)
+                sleep(180)
         soup = BeautifulSoup(response.content, 'lxml')
         book_selector = '.d_book'
         book_tags = soup.select(selector=book_selector)
