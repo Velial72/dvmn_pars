@@ -32,7 +32,7 @@
    ```
    pip install -r requirements.txt
    ```
-5. Для запуска используй командуЖ
+5. Для запуска используй команду:
    ```
    python3 parse_tululu_category.py
    ```
