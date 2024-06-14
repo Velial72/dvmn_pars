@@ -16,14 +16,6 @@ def main():
     books_info_list = []
     main_page = f'https://tululu.org/'
 
-
-    # response = requests.get(url=f'{main_page}l55/')
-    # response.raise_for_status()
-    # soup = BeautifulSoup(response.content, 'lxml')
-    # page_select = '.npage'
-    # pages = soup.select(selector=page_select)
-    # last_page = pages[-1]
-
     parser = argparse.ArgumentParser(description='Тут можно задать с какой по какую страницы скачать')
     parser.add_argument('-sp', '--start_page', 
                         help='с какой страницы качать', 
