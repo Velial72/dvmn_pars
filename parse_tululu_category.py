@@ -66,7 +66,8 @@ def main():
 
         for book_tag in book_tags:
             book_url_tag = book_tag.select_one(selector=('a'))['href']
-            book_url = urljoin(main_page, book_url_tag)
+            image_url=f'{main_page}l55/{page}/'
+            book_url = urljoin(image_url, book_url_tag)
             conn = True
             while conn:
                 try:   
