@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 from time import sleep
 from urllib.parse import urljoin
-from help_functions import parse_book_page, download_txt, download_image, check_for_redirect, get_last_page
+from help_functions import parse_book_page, download_txt, download_image, check_for_redirect, get_last_page_number
 from requests.exceptions import HTTPError
 import argparse
 from pathlib import Path
@@ -32,7 +32,7 @@ def main():
     parser.add_argument('-ep', '--end_page', 
                         help='с какого до какой страницы качать', 
                         type=int, 
-                        default=get_last_page(url=main_page))
+                        default=get_last_page_number(url=main_page))
     parser.add_argument('-f', '--dest_folder', 
                         help='указать название директории для загрузок', 
                         type=str)

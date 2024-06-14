@@ -75,7 +75,7 @@ def parse_book_page(book_html: bytes, url):
     }
 
 
-def get_last_page(url):
+def get_last_page_number(url):
     response = requests.get(url=f'{url}l55/')
     response.raise_for_status()
     check_for_redirect(response)
@@ -83,5 +83,5 @@ def get_last_page(url):
     page_select = '.npage'
     pages = soup.select(selector=page_select)
     last_page_tag = pages[-1]
-    last_page = last_page_tag.text
-    return int(last_page)
+    last_page_number = last_page_tag.text
+    return int(last_page_number)
