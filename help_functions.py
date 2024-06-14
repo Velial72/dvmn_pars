@@ -10,7 +10,7 @@ def check_for_redirect(response: requests.models.Response):
     '''Checks for redirects and, if so, raises an HTTPError'''
     if response.is_redirect:
         raise HTTPError(f'Data not found.')
-    
+
 
 def download_txt(url, filename, folder):
     os.makedirs(folder, exist_ok=True)
@@ -78,6 +78,7 @@ def parse_book_page(book_html: bytes, url):
 def get_last_page(url):
     response = requests.get(url=f'{url}l55/')
     response.raise_for_status()
+    check_for_redirect(response)
     soup = BeautifulSoup(response.content, 'lxml')
     page_select = '.npage'
     pages = soup.select(selector=page_select)

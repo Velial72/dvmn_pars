@@ -62,6 +62,7 @@ def main():
         try:
             response = requests.get(url=f'{main_page}l55/{page}/')
             response.raise_for_status()
+            check_for_redirect(response)
         except HTTPError as http_err:
                     print(http_err)
         except requests.exceptions.ConnectionError as conn_err:
