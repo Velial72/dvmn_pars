@@ -13,7 +13,7 @@ from pathlib import Path
 def main():
     base_dir = Path(__file__).resolve().parent
     path_to_dir = base_dir
-    info_about_books = []
+    books_descriptions = []
     main_page = f'https://tululu.org/'
 
     parser = argparse.ArgumentParser(description='Тут можно задать с какой по какую страницы скачать')
@@ -46,9 +46,9 @@ def main():
     if os.path.exists('Book_info.json'):
         with open('Book_info.json', 'r', encoding='utf8') as json_file:
             try:
-                info_about_books = json.load(json_file)
+                books_descriptions = json.load(json_file)
             except json.JSONDecodeError:
-                info_about_books = []
+                books_descriptions = []
 
     for page in range(start_page, end_page+1 ):
         try:
@@ -88,7 +88,7 @@ def main():
 
                     parsed_book_page.pop('txt_url', None)
                     parsed_book_page.pop('image_url', None)
-                    info_about_books.append(parsed_book_page)
+                    books_descriptions.append(parsed_book_page)
                     
                     conn = False
                 except HTTPError as http_err:
@@ -99,7 +99,7 @@ def main():
                     sleep(180)
     file_path = path_to_dir / 'Book_info.json'
     with open(file_path, 'w', encoding='utf8') as json_file:
-        json.dump(info_about_books, json_file, ensure_ascii=False, indent=4)
+        json.dump(books_descriptions, json_file, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':
