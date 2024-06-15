@@ -76,9 +76,9 @@ def main():
         book_tags = soup.select(selector=book_selector)
 
         for book_tag in book_tags:
-            book_url_tag = book_tag.select_one(selector=('a'))['href']
-            image_url=f'{main_page}l55/{page}/'
-            book_url = urljoin(image_url, book_url_tag)
+            book_url_endpoint = book_tag.select_one(selector=('a'))['href']
+            page_url=f'{main_page}l55/{page}/'
+            book_url = urljoin(page_url, book_url_endpoint)
             conn = True
             while conn:
                 try:   
