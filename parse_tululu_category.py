@@ -22,7 +22,7 @@ def main():
     base_dir = Path(__file__).resolve().parent
     path_to_dir = base_dir
     books_descriptions = []
-    main_page = f'https://tululu.org/'
+    main_page = 'https://tululu.org/'
 
     parser = argparse.ArgumentParser(description='Тут можно задать с какой по какую страницы скачать')
     parser.add_argument('-sp', '--start_page', 
@@ -59,15 +59,18 @@ def main():
                 books_descriptions = []
 
     for page in range(start_page, end_page+1 ):
-        try:
-            response = requests.get(url=f'{main_page}l55/{page}/')
-            response.raise_for_status()
-            check_for_redirect(response)
-        except HTTPError as http_err:
-                    print(http_err)
-        except requests.exceptions.ConnectionError as conn_err:
-                print(conn_err)
-                sleep(180)
+        flag = True
+        while flag:
+            try:
+                response = requests.get(url=f'{main_page}l55/{page}/')
+                response.raise_for_status()
+                check_for_redirect(response)
+                flag = False
+            except HTTPError as http_err:
+                        print(http_err)
+            except requests.exceptions.ConnectionError as conn_err:
+                    print(conn_err)
+                    sleep(180)
         soup = BeautifulSoup(response.content, 'lxml')
         book_selector = '.d_book'
         book_tags = soup.select(selector=book_selector)
