@@ -59,15 +59,16 @@ def main():
                 books_descriptions = []
 
     for page in range(start_page, end_page+1 ):
-        flag = True
-        while flag:
+        conn_active = True
+        while conn_active:
             try:
                 response = requests.get(url=f'{main_page}l55/{page}/')
                 response.raise_for_status()
                 check_for_redirect(response)
-                flag = False
+                conn_active = False
             except HTTPError as http_err:
-                        print(http_err)
+                    print(http_err)
+                    conn_active = False
             except requests.exceptions.ConnectionError as conn_err:
                     print(conn_err)
                     sleep(180)
