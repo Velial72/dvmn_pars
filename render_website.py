@@ -20,7 +20,8 @@ books_info = [
     {
         'title': book.get('title'),
         'author': book.get('author'),
-        'image': book.get('img_file_path')
+        'image': book.get('img_file_path'),
+        'link': book.get('txt_file_path'),
     }
     for book in books_data
 ]
