@@ -93,11 +93,14 @@ def main():
                     parsed_book_page = parse_book_page(book_html=book_response_content, url=book_url)
                     book_title = parsed_book_page.get('title')
                     if not args.skip_txt:
-                        download_txt(url=parsed_book_page.get('txt_url'),
+                        txt_file_path = download_txt(url=parsed_book_page.get('txt_url'),
                                         filename=f'{book_title}', folder=f'{path_to_dir}/books/')
+                        relative_txt_file_path = os.path.relpath(txt_file_path, path_to_dir)
+                        parsed_book_page['txt_file_path'] = relative_txt_file_path
                     if not args.skip_imgs:    
-                        download_image(url=parsed_book_page.get('image_url'), folder=f'{path_to_dir}/images/')
-
+                        img_file_path = download_image(url=parsed_book_page.get('image_url'), folder=f'{path_to_dir}/images/')
+                        relative_img_file_path = os.path.relpath(img_file_path, path_to_dir)
+                        parsed_book_page['img_file_path'] = relative_img_file_path
                     parsed_book_page.pop('txt_url', None)
                     parsed_book_page.pop('image_url', None)
                     books_descriptions.append(parsed_book_page)

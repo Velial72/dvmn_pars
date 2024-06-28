@@ -24,6 +24,7 @@ def download_txt(url, filename, folder):
     with open(book_path, 'wb') as file:
         file.write(book_response.content)
     print('Книга скачана')
+    return book_path
 
 
 def download_image(url, folder):
@@ -38,6 +39,7 @@ def download_image(url, folder):
     
     with open(img_path, 'wb') as file:
         file.write(response.content)
+    return img_path
 
 
 
@@ -46,7 +48,7 @@ def parse_book_page(book_html: bytes, url):
     title_and_author = soup.find(id='content').find('h1').text.split('::')
     title, author = (el.strip() for el in title_and_author)
 
-    genres_select = '.d_book a'
+    genres_select = '.d_book a[title*="жанр"]'
     genres_tag = soup.select(selector=genres_select)
     book_genres = [genre.text for genre in genres_tag]
 
