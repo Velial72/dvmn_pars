@@ -51,12 +51,18 @@ def main():
         os.makedirs(args.dest_folder, exist_ok=True)
         path_to_dir = base_dir.joinpath(args.dest_folder)
 
-    if os.path.exists('Book_info.json'):
-        with open('Book_info.json', 'r', encoding='utf8') as json_file:
+    json_file_path = path_to_dir / 'Book_info.json'
+
+    if json_file_path.exists:
+        with open(json_file_path, 'r', encoding='utf8') as json_file:
             try:
-                books_descriptions = json.load(json_file)
+                existing_books_descriptions = json.load(json_file)
             except json.JSONDecodeError:
-                books_descriptions = []
+                existing_books_descriptions = []
+    else:
+        existing_books_descriptions = []
+
+    books_descriptions = existing_books_descriptions.copy()
 
     for page in range(start_page, end_page+1 ):
         conn_active = True
