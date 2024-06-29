@@ -20,12 +20,13 @@ books_info = [
     {
         'title': book.get('title'),
         'author': book.get('author'),
+        'genres': book.get('genres'),
         'image': book.get('img_file_path'),
         'link': book.get('txt_file_path'),
     }
     for book in books_data
 ]
-print(books_info)
+
 rendered_page = template.render(books=books_info)
 
 with open('index.html', 'w', encoding="utf8") as file:
