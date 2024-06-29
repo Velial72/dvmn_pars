@@ -13,27 +13,47 @@
   <body>
     <div class="container">
       <div class="row">
-        {% for book in books %}
+        
           <div class="col-md-6 mb-3">
             <div class="card">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="/books/{{book.image}}" class="card-img" alt="{{book.title}}">
+                  <img src="/books/images/nopic.gif" class="card-img" alt="Абсолютный хрум">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">{{ book.title }}</h5>
-                    <p class="card-text">{{ book.author }}</p>
-                    {% for genre in book.genres %}
-                      <h6 class="badge badge-light">{{genre}}</h6>
-                    {% endfor %}
-                    <p class="card-text"><a href="/books/{{book.link}}" target="_blank">Читать</a></p>
+                    <h5 class="card-title">Абсолютный хрум</h5>
+                    <p class="card-text">Тарабанов Дмитрий</p>
+                    
+                      <h6 class="badge badge-light">Научная фантастика</h6>
+                    
+                    <p class="card-text"><a href="/books/books/built-in function id.Абсолютный хрум.txt" target="_blank">Читать</a></p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        {% endfor %}
+        
+          <div class="col-md-6 mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="/books/images/nopic.gif" class="card-img" alt="Абстиненция">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Абстиненция</h5>
+                    <p class="card-text">Нестеренко Юрий</p>
+                    
+                      <h6 class="badge badge-light">Научная фантастика</h6>
+                    
+                    <p class="card-text"><a href="/books/books/built-in function id.Абстиненция.txt" target="_blank">Читать</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
       </div>
     </div>
     <!-- Optional JavaScript -->
