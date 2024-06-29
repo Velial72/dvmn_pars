@@ -48,12 +48,12 @@ def main():
     end_page = args.end_page
 
     if args.dest_folder:
-        os.makedirs(args.dest_folder, exist_ok=True)
         path_to_dir = base_dir.joinpath(args.dest_folder)
+        os.makedirs(args.dest_folder, exist_ok=True)
 
     json_file_path = path_to_dir / 'Book_info.json'
 
-    if json_file_path.exists:
+    if json_file_path.exists():
         with open(json_file_path, 'r', encoding='utf8') as json_file:
             try:
                 existing_books_descriptions = json.load(json_file)
@@ -101,11 +101,11 @@ def main():
                     if not args.skip_txt:
                         txt_file_path = download_txt(url=parsed_book_page.get('txt_url'),
                                         filename=f'{book_title}', folder=f'{path_to_dir}/books/')
-                        relative_txt_file_path = os.path.relpath(txt_file_path, path_to_dir)
+                        relative_txt_file_path = os.path.relpath(txt_file_path, base_dir)
                         parsed_book_page['txt_file_path'] = relative_txt_file_path
                     if not args.skip_imgs:    
                         img_file_path = download_image(url=parsed_book_page.get('image_url'), folder=f'{path_to_dir}/images/')
-                        relative_img_file_path = os.path.relpath(img_file_path, path_to_dir)
+                        relative_img_file_path = os.path.relpath(img_file_path, base_dir)
                         parsed_book_page['img_file_path'] = relative_img_file_path
                     parsed_book_page.pop('txt_url', None)
                     parsed_book_page.pop('image_url', None)

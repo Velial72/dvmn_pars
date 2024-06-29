@@ -36,7 +36,7 @@ def download_image(url, folder):
 
     img_name = sanitize_filename(filename=filename[-1])
     img_path = sanitize_filepath(os.path.join(folder, img_name))
-    
+    print(img_path)
     with open(img_path, 'wb') as file:
         file.write(response.content)
     return img_path

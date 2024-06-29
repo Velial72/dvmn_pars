@@ -12,8 +12,8 @@
             "А мне понравилось, люблю, знаете ли, всякие загадочки, головоломочки, кроссвордики, Гимнастика ума, одним словом... \nВо всём можно найти положительные моменты, не разгадал загадку, так хоть гренки научился готовить отменные... :-)",
             "Очень поучительное для ребенка 10 лет."
         ],
-        "txt_file_path": "books/built-in function id.Алиби.txt",
-        "img_file_path": "images/239.jpg"
+        "txt_file_path": "books/books/built-in function id.Алиби.txt",
+        "img_file_path": "books/images/239.jpg"
     },
     {
         "title": "Бич небесный",
@@ -32,8 +32,8 @@
             "Сейчас буду читать, через 3 дня расскажу своё мнение...",
             "Супер ^_^."
         ],
-        "txt_file_path": "books/built-in function id.Бич небесный.txt",
-        "img_file_path": "images/550.jpg"
+        "txt_file_path": "books/books/built-in function id.Бич небесный.txt",
+        "img_file_path": "books/images/550.jpg"
     },
     {
         "title": "Цена посвящения: Серый Ангел",
@@ -46,8 +46,8 @@
             "Очень хорошо, много интересных мыслей. Советую.",
             "Понравилось. Немного политизированности создает специфические ассоциации по восприятию произведения. Не скажу что \"отпад как классно\", но интересно читать. Фантастики как таковой нет, но от этого детектив хуже не стал."
         ],
-        "txt_file_path": "books/built-in function id.Цена посвящения Серый Ангел.txt",
-        "img_file_path": "images/768.jpg"
+        "txt_file_path": "books/books/built-in function id.Цена посвящения Серый Ангел.txt",
+        "img_file_path": "books/images/768.jpg"
     },
     {
         "title": "Цена посвящения: Время Зверя",
@@ -61,8 +61,8 @@
             "Из этой серии, лучшая!",
             "Это не фантастика, а реальность, включая психотропное оружие.\n  Опечатки - вместо Ирак, следует читать - Иран.\n  Недостатки: не указан противник Белого ордена; нас ставят на порог \"белого квадрата\", но новых идей не дают..."
         ],
-        "txt_file_path": "books/built-in function id.Цена посвящения Время Зверя.txt",
-        "img_file_path": "images/769.jpg"
+        "txt_file_path": "books/books/built-in function id.Цена посвящения Время Зверя.txt",
+        "img_file_path": "books/images/769.jpg"
     },
     {
         "title": "Дело Джен, или Эйра немилосердия",
@@ -72,8 +72,8 @@
             "Прочие Детективы"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.Дело Джен, или Эйра немилосердия.txt",
-        "img_file_path": "images/1131.jpg"
+        "txt_file_path": "books/books/built-in function id.Дело Джен, или Эйра немилосердия.txt",
+        "img_file_path": "books/images/1131.jpg"
     },
     {
         "title": "Фабрика дьявола",
@@ -89,8 +89,8 @@
             "Термин дешевая не применим к книгам.",
             "Не увлекает, скучновато, изобилует \"научными терминами-вымыслами\"."
         ],
-        "txt_file_path": "books/built-in function id.Фабрика дьявола.txt",
-        "img_file_path": "images/1715.jpg"
+        "txt_file_path": "books/books/built-in function id.Фабрика дьявола.txt",
+        "img_file_path": "books/images/1715.jpg"
     },
     {
         "title": "Говорящий камень",
@@ -109,8 +109,8 @@
             "Прочитал. Понравилось. Люблю логику.",
             "Азимов-талант, предвидевший многие открытия, а также будущее Земли как экосистемы, подвергающейся опасности. Читала и буду перечитывать. Спасибо!!!!"
         ],
-        "txt_file_path": "books/built-in function id.Говорящий камень.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Говорящий камень.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "И Он пришел... ИТ-роман",
@@ -141,8 +141,8 @@
             "Очень мило. Добро на коне, конь в мыле но несет. Дружба народов, вер, полов. Зло вульгарно и мерзотна. Приторно сладко. В реале Зло красиво, обмачиво, это и ужасает. Итого: мелко, усужливо и еще раз мило до соплей.",
             "С удовольствием прочитала эту книгу. Рекомендую."
         ],
-        "txt_file_path": "books/built-in function id.И Он пришел... ИТ-роман.txt",
-        "img_file_path": "images/2043.jpg"
+        "txt_file_path": "books/books/built-in function id.И Он пришел... ИТ-роман.txt",
+        "img_file_path": "books/images/2043.jpg"
     },
     {
         "title": "Казнить нельзя помиловать",
@@ -154,8 +154,8 @@
         "comments": [
             "Стоит прочесть, несмотря на кое-гдешные замудрёносушности))"
         ],
-        "txt_file_path": "books/built-in function id.Казнить нельзя помиловать.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Казнить нельзя помиловать.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "Ночь, которая умирает",
@@ -174,8 +174,8 @@
             "Гениально почти как все у Айзека.",
             "Спасибо за возможность прочитать этот рассказ. Достаточно интересная гипотеза, и как всегда у Азимова, попутно много интересных фактов о других мирах."
         ],
-        "txt_file_path": "books/built-in function id.Ночь, которая умирает.txt",
-        "img_file_path": "images/4024.jpg"
+        "txt_file_path": "books/books/built-in function id.Ночь, которая умирает.txt",
+        "img_file_path": "books/images/4024.jpg"
     },
     {
         "title": "Нырок в забвение",
@@ -188,8 +188,8 @@
         "comments": [
             "Автору: Хенрик РичардYan Smit 25. 09. 2011 13:29:15 (перенесено)Нырок в забвение:: Хенрик Ричард Это не фантастика, это какая-то пропагандистская агитка( Автор не шарит в науках, но пишет о них - простительно. Автор не военный, но сочиняет на околовоенные темы - плевать. Но как у него русский КАПИТАН, прошедший войну, вдруг решил в жизни \"плыть по течению\"???! Автор, что, русских только по своим газетам, да по нашим москвичам видел? А \"океанолог Ирина\", через каждые пять минут ругающая перед иностранцами своё, советское, откуда взялась? Что за гибрид проститутки с инопланетянином? В любом народе люди между собой по костям разложат и своё и своих, но перед чужими - хрен! Ни француз, ни американец, ни, тем более русский - СВОЁ перед чужими никогда опускать не станет. В общем, персонажи картонные, действо надуманное, и книжонку \"вытягивает\" только сюжет и как-бы современность. Ощущения при чтении - чтиво на раз. Долистать, плюнуть, и повесить в общественном туалете деревенском."
         ],
-        "txt_file_path": "books/built-in function id.Нырок в забвение.txt",
-        "img_file_path": "images/4102.jpg"
+        "txt_file_path": "books/books/built-in function id.Нырок в забвение.txt",
+        "img_file_path": "books/images/4102.jpg"
     },
     {
         "title": "Поющий колокольчик",
@@ -203,8 +203,8 @@
             "Я прочитала эти произведения ещё в институте и просто заболела Азимовым. Книги я брала у знакомых, но сейчас благодоря интернету могу читать когда угодно. Спасибо вам!",
             "Какое поэтичное описание этих поющих колокольчиков! Очень захотелось их услышать. Спасибо за возможность прочитать эти рассказы - я очень люблю Азимова, но эти рассказы прочитала впервые."
         ],
-        "txt_file_path": "books/built-in function id.Поющий колокольчик.txt",
-        "img_file_path": "images/4876.jpg"
+        "txt_file_path": "books/books/built-in function id.Поющий колокольчик.txt",
+        "img_file_path": "books/images/4876.jpg"
     },
     {
         "title": "Продается тело Христа",
@@ -221,8 +221,8 @@
             "Книга очень увлекательное и трогает до глубины души. Жаль только что не все линии героев доведены до конца.",
             "Книга очень понравилась. Сюжет конечно местами предсказуем, но написано очень и очень неплохо. На слезу пробивает и героям сопереживаешь искренне. Концовка позитивная но книгу не портит. Самое главное, что сюжет заставляет задуматься \"кто ты в этом мире\"; \"что ты сделал хорошего\"; \"веришь ли ты\". Всем нормальным людям рекомендую! Останется в памяти."
         ],
-        "txt_file_path": "books/built-in function id.Продается тело Христа.txt",
-        "img_file_path": "images/5299.jpg"
+        "txt_file_path": "books/books/built-in function id.Продается тело Христа.txt",
+        "img_file_path": "books/images/5299.jpg"
     },
     {
         "title": "Роковой поцелуй",
@@ -233,8 +233,8 @@
             "Прочие приключения"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.Роковой поцелуй.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Роковой поцелуй.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "Те, кто против нас",
@@ -253,8 +253,8 @@
             "Очень что то напоминает! Гадкие лебеди Стругацких? Нет...! Так это же сегодняшняя Россия! Всё один к одному! Только причины другие, а последствия те же!",
             "Это антигосударственное вредное чтиво. Надо немедленно запретить."
         ],
-        "txt_file_path": "books/built-in function id.Те, кто против нас.txt",
-        "img_file_path": "images/6758.jpg"
+        "txt_file_path": "books/books/built-in function id.Те, кто против нас.txt",
+        "img_file_path": "books/images/6758.jpg"
     },
     {
         "title": "Телепортеры, внимание!",
@@ -264,8 +264,8 @@
             "Триллеры"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.Телепортеры, внимание!.txt",
-        "img_file_path": "images/6766.jpg"
+        "txt_file_path": "books/books/built-in function id.Телепортеры, внимание!.txt",
+        "img_file_path": "books/images/6766.jpg"
     },
     {
         "title": "Зодиак",
@@ -277,8 +277,8 @@
         "comments": [
             "ооооо, великая оранжевая серия!!! Большая часть из этой линии застревает и в душе, и в голове надолго))) \r\nнадеюсь и эта книга произведет на меня такое же сильное впечатление, как и другие оранжевые%)))"
         ],
-        "txt_file_path": "books/built-in function id.Зодиак.txt",
-        "img_file_path": "images/8283.jpg"
+        "txt_file_path": "books/books/built-in function id.Зодиак.txt",
+        "img_file_path": "books/images/8283.jpg"
     },
     {
         "title": "Justitia - est Часть 1",
@@ -288,8 +288,8 @@
             "Прочие Детективы"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.Justitia - est Часть 1.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Justitia - est Часть 1.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "Астронавт Джонс",
@@ -318,8 +318,8 @@
             "Отличная книга, читается на одном дыхании. Да и вообще Хайнлайн очен интересный автор. Рекомендую.",
             "Книга явно написана для молодёжи от 10-ти до 20-ти. Хайнлайн всегда читается легко, сюжет неплохо закручен, но эта книга не входит в список лучших его произведений. Хотя, допускаю, что при хорошем переводе она выглядела бы лучше.Но перевод ниже всякой критики, да и орфографические ошибки сбивают... Похоже на компьютерный перевод с легкой правкой невнимательным или малограмотным корректором. Почему, например, команда проводит обсервации, а не наблюдения? Смысл понятен, но в русском языке есть устойчивое выражнение \"провести наблюдения\". Нормальный переводчик с филологическим образованием не допускал бы подобных ляпов. Тем не менее книгу прочитал с удовольствием."
         ],
-        "txt_file_path": "books/built-in function id.Астронавт Джонс.txt",
-        "img_file_path": "images/8902.jpg"
+        "txt_file_path": "books/books/built-in function id.Астронавт Джонс.txt",
+        "img_file_path": "books/images/8902.jpg"
     },
     {
         "title": "Будет скафандр - будут и путешествия",
@@ -340,8 +340,8 @@
             "Книга очень интересная. Читал её два раза, и буду читать и в третий раз. Уже в электронном варианте.",
             "Больше бы таких книг! То, что сейчас печатают...!!! КНИГА должна иметь смысл и давать стимул для развития человека. Это одна из них."
         ],
-        "txt_file_path": "books/built-in function id.Будет скафандр - будут и путешествия.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Будет скафандр - будут и путешествия.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "Дочь Нефертити",
@@ -362,8 +362,8 @@
             "Я под впечатлением! Потрясающе. Захватывает.",
             "Мне 65, но книгу прочитал за присест. Татьяна, пишите еще. Мы вас любим."
         ],
-        "txt_file_path": "books/built-in function id.Дочь Нефертити.txt",
-        "img_file_path": "images/9402.jpg"
+        "txt_file_path": "books/books/built-in function id.Дочь Нефертити.txt",
+        "img_file_path": "books/images/9402.jpg"
     },
     {
         "title": "Наложница императора",
@@ -378,8 +378,8 @@
             "Книга очень увлекательная.",
             "Нужно прочитать не только подросткам, но и взрослым. Жаль, что вшколе нам этого не рассказывали."
         ],
-        "txt_file_path": "books/built-in function id.Наложница императора.txt",
-        "img_file_path": "images/10768.jpg"
+        "txt_file_path": "books/books/built-in function id.Наложница императора.txt",
+        "img_file_path": "books/images/10768.jpg"
     },
     {
         "title": "Общая теория Доминант",
@@ -400,8 +400,8 @@
             "Собственно не понятно за что этой книге ставить положительный отзыв. При чтении складывается впечатление, что автором является школьник, у которого проблемы с личной жизнью, и который абсолютно ничего не понимает ни в оружии, ни в it технологиях, ни в устройстве государств и тем более спец служб и военных(где-то что-то видел, но ничего не понял). Понятие \"логика\" тут вообще не уместно, хотя писатель так и норовит выставить своих маленьких героев эдакими гениями... Правда тщетно. И вот уж не знаю кто набирал данную версию книги... Но простите в 90% случаев написать неправильно \"тся\" и \"ться\" и путать \"ни, ни\" с \"не, не\" это надо постараться. ИМХО: если вы умеете думать, эта книга не для вас; если вы любите тупые боевики с примесью романа(в данном случае с малолетними детьми), правда с довольно динамичным сюжетом- это то, что вы искали.",
             "Полнейшая чушь. Более подробно читайте в отзыве Александра."
         ],
-        "txt_file_path": "books/built-in function id.Общая теория Доминант.txt",
-        "img_file_path": "images/10923.jpg"
+        "txt_file_path": "books/books/built-in function id.Общая теория Доминант.txt",
+        "img_file_path": "books/images/10923.jpg"
     },
     {
         "title": "Взгляд из сердца",
@@ -414,8 +414,8 @@
             "Эзотерика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.Взгляд из сердца.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Взгляд из сердца.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "Звездный зверь ( Звездное чудовище)",
@@ -429,8 +429,8 @@
             "Ксенофобия, ненависть ко всему тому что не хочется понимать, может привести к гибели чедовечество. Эта тема актуальна сейчас и скорее всего будет актуальна еще очень долго.",
             "Рекомендую всем!!!!!!!!!!!"
         ],
-        "txt_file_path": "books/built-in function id.Звездный зверь ( Звездное чудовище).txt",
-        "img_file_path": "images/13038.jpg"
+        "txt_file_path": "books/books/built-in function id.Звездный зверь ( Звездное чудовище).txt",
+        "img_file_path": "books/images/13038.jpg"
     },
     {
         "title": "Сборник рассказов и повестей",
@@ -441,8 +441,8 @@
             "Юмористическая фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.Сборник рассказов и повестей.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.Сборник рассказов и повестей.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "...Яко помниши его",
@@ -469,8 +469,8 @@
             "Книга понравилась, заставляет задуматься об интеллекте, морали человека, о том как все относительно и как хрупок мир...",
             "Хорошая книга. К админам, не плохо было бы если бы вы прописали год выхода книги в печать. Спасибо."
         ],
-        "txt_file_path": "books/built-in function id....Яко помниши его.txt",
-        "img_file_path": "images/18919.jpg"
+        "txt_file_path": "books/books/built-in function id....Яко помниши его.txt",
+        "img_file_path": "books/images/18919.jpg"
     },
     {
         "title": "...На Вавилон",
@@ -485,8 +485,8 @@
             "Может в рассказе и есть какой-то глубокий смысл, но я его не уловил. Прмойму просто муть.",
             "Интересно, но концовка разочаровала... Ожидала большего."
         ],
-        "txt_file_path": "books/built-in function id....На Вавилон.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id....На Вавилон.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "...Вставьте шплинт А в гнездо Б...",
@@ -509,8 +509,8 @@
             "Хорошая книга.",
             "Lokonicno."
         ],
-        "txt_file_path": "books/built-in function id....Вставьте шплинт А в гнездо Б.txt",
-        "img_file_path": "images/18921.jpg"
+        "txt_file_path": "books/books/built-in function id....Вставьте шплинт А в гнездо Б.txt",
+        "img_file_path": "books/images/18921.jpg"
     },
     {
         "title": "...к звездам!",
@@ -521,8 +521,8 @@
         "comments": [
             "Спасибо за полученное удовольствие."
         ],
-        "txt_file_path": "books/built-in function id....к звездам!.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id....к звездам!.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "1-книга. Весна на Галане",
@@ -536,8 +536,8 @@
             "Очень люблю фантастику. Автора пока не читала, надеюсь,- не разочарует!",
             "А мне понравилось всё. Просто нужно читать не отвлекаясь, а не в метро:). Тогда полнее погружаешься в созданный мир, чему и способствует подробное описание."
         ],
-        "txt_file_path": "books/built-in function id.1-книга. Весна на Галане.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.1-книга. Весна на Галане.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "10-я книга. Варкенские перемены.",
@@ -548,8 +548,8 @@
         "comments": [
             "Я ставлю 4."
         ],
-        "txt_file_path": "books/built-in function id.10-я книга. Варкенские перемены.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.10-я книга. Варкенские перемены.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "11-я книга. Рождение империи сенсетивов",
@@ -561,8 +561,8 @@
             "Спасобо вам за это произведение!!!!!",
             "Спасибо огромное, жду с нетерпением 16 книгу. Почему о вас нигде нет информации.? Пишете очень интересно-погрузилась в этот мир с удовольствием."
         ],
-        "txt_file_path": "books/built-in function id.11-я книга. Рождение империи сенсетивов.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.11-я книга. Рождение империи сенсетивов.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "13-я книга. Галанское сватовство",
@@ -571,8 +571,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.13-я книга. Галанское сватовство.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.13-я книга. Галанское сватовство.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "132-й",
@@ -587,8 +587,8 @@
             "Очень хорошая книга. Жаль что сейчас всё больше капитанов и всё меньше полковников. Очень жаль...",
             "Сейчас пол страны такие -вот капитаны. И молодежь такой воспитывается. Молодец Макаов!"
         ],
-        "txt_file_path": "books/built-in function id.132-й.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.132-й.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "14-я книга. Барабаны Таланов",
@@ -597,8 +597,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.14-я книга. Барабаны Таланов.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.14-я книга. Барабаны Таланов.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "15-я книга. Школа арханелов",
@@ -607,8 +607,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.15-я книга. Школа арханелов.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.15-я книга. Школа арханелов.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "2-я книга. Сенсетивы Галана",
@@ -617,8 +617,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.2-я книга. Сенсетивы Галана.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.2-я книга. Сенсетивы Галана.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "4-я книга. Экспедиция на Голубой планетоид",
@@ -627,8 +627,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.4-я книга. Экспедиция на Голубой планетоид.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.4-я книга. Экспедиция на Голубой планетоид.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "5-я книга. В подземельях Бидрупа.",
@@ -637,8 +637,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.5-я книга. В подземельях Бидрупа.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.5-я книга. В подземельях Бидрупа.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "53-я американская мечта",
@@ -650,8 +650,8 @@
             "Полнейший бред по моему мнению.",
             "Вы можете долго искать смысл в этом рассказе, но так и не найти. В этом, наверное, и была цель автора."
         ],
-        "txt_file_path": "books/built-in function id.53-я американская мечта.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.53-я американская мечта.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "6-я книга. Сражение за Бидруп.",
@@ -660,8 +660,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.6-я книга. Сражение за Бидруп.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.6-я книга. Сражение за Бидруп.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "64-клеточный дурдом",
@@ -672,8 +672,8 @@
         "comments": [
             "Заставляет задуматься- человек против мной машины или наоборот. Понравится любителям шахматных игр- книга для вас."
         ],
-        "txt_file_path": "books/built-in function id.64-клеточный дурдом.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.64-клеточный дурдом.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "7-я книга. День Откровения",
@@ -682,8 +682,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.7-я книга. День Откровения.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.7-я книга. День Откровения.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "8-я книга. Полет Уригленны.",
@@ -692,8 +692,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.8-я книга. Полет Уригленны.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.8-я книга. Полет Уригленны.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "9-я книга. Тарат Зурбин",
@@ -702,8 +702,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.9-я книга. Тарат Зурбин.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.9-я книга. Тарат Зурбин.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "90х60х90",
@@ -714,8 +714,8 @@
         "comments": [
             "Ни фантастики, ни фэнтези, обычный детектив... Про обычную жизненную ситуацию... Правда, пара диалогов заставили задуматься, но не более..."
         ],
-        "txt_file_path": "books/built-in function id.90х60х90.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.90х60х90.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "995-й святой",
@@ -724,8 +724,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.995-й святой.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.995-й святой.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А, Критика!",
@@ -734,8 +734,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А, Критика!.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А, Критика!.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "АНТОЛОГИЯ СКАНДИНАВСКОЙ ФАНТАСТИКИ",
@@ -751,8 +751,8 @@
             "Книга впечатляющая. Не сказать что очень интересная, но подходящего эпитета не подберу. Доведение идеи до л о г и ч н о г о абсурда. И вторая мысль, что человек может ко всему, к любым условиям привыкнуть. А не сам так следующее поколение. Человек слаб в смысле физических условий, но приспособляемость у него большая.",
             "Поочеемуу занууудноо??? Для скаандинннааввии оооччееньь дажжее дииннаммиичнооо."
         ],
-        "txt_file_path": "books/built-in function id.АНТОЛОГИЯ СКАНДИНАВСКОЙ ФАНТАСТИКИ.txt",
-        "img_file_path": "images/18949.jpg"
+        "txt_file_path": "books/books/built-in function id.АНТОЛОГИЯ СКАНДИНАВСКОЙ ФАНТАСТИКИ.txt",
+        "img_file_path": "books/images/18949.jpg"
     },
     {
         "title": "А бог един",
@@ -761,8 +761,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А бог един.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А бог един.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А была ли тайна",
@@ -771,8 +771,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А была ли тайна.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А была ли тайна.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А человек забудет",
@@ -781,8 +781,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А человек забудет.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А человек забудет.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А что будет",
@@ -791,8 +791,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А что будет.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А что будет.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А что с ними делать дальше?",
@@ -807,8 +807,8 @@
             "Не поцимаю, почему такая низкая оценка.",
             "Интересно. Много места для фантазии."
         ],
-        "txt_file_path": "books/built-in function id.А что с ними делать дальше.txt",
-        "img_file_path": "images/18956.jpg"
+        "txt_file_path": "books/books/built-in function id.А что с ними делать дальше.txt",
+        "img_file_path": "books/images/18956.jpg"
     },
     {
         "title": "А дом стоит себе спокойно (Вечный дом)",
@@ -817,8 +817,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А дом стоит себе спокойно (Вечный дом).txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А дом стоит себе спокойно (Вечный дом).txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А еще мы выгуливаем собак",
@@ -831,8 +831,8 @@
             "Рекомдую у Ханлайнф плохих книг нетю.",
             "Хайнлайн - замечателен!!!"
         ],
-        "txt_file_path": "books/built-in function id.А еще мы выгуливаем собак.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А еще мы выгуливаем собак.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А где же Рошар",
@@ -841,8 +841,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А где же Рошар.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А где же Рошар.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А и Е",
@@ -851,8 +851,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А и Е.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А и Е.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А я пойду дальше",
@@ -861,8 +861,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А я пойду дальше.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А я пойду дальше.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А как же еще",
@@ -873,8 +873,8 @@
         "comments": [
             "Чудесный юмор )"
         ],
-        "txt_file_path": "books/built-in function id.А как же еще.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А как же еще.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А мне до них",
@@ -883,8 +883,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А мне до них.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А мне до них.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А могла бы и быть",
@@ -893,8 +893,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А могла бы и быть.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А могла бы и быть.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А моя мама - ведьма!",
@@ -905,8 +905,8 @@
         "comments": [
             "Весьма рекомендую. Магия глазами ребёнка, рассказ - троюродный брат шурина кума знакомой подруги от того фильма \"Лабиринт Фавна\"... В общем читаем."
         ],
-        "txt_file_path": "books/built-in function id.А моя мама - ведьма!.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А моя мама - ведьма!.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А мы лезем в окно",
@@ -917,8 +917,8 @@
         "comments": [
             "По этому рассказу я поставил номер в институте культуры еще  в 1990 году. До сих пор его признают как шедевр студенческого мастерства. Пытались некоторые поставить по-своему, но когда им Евгений Вандалковский рассказывал как ЭТО было - делали реверанс и искали другой материал."
         ],
-        "txt_file_path": "books/built-in function id.А мы лезем в окно.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А мы лезем в окно.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А она уходила",
@@ -927,8 +927,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А она уходила.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А она уходила.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А поезд идет",
@@ -937,8 +937,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А поезд идет.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А поезд идет.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А роза упала на лапу Азора",
@@ -947,8 +947,8 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А роза упала на лапу Азора.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А роза упала на лапу Азора.txt",
+        "img_file_path": "books/images/nopic.gif"
     },
     {
         "title": "А вдруг они победят",
@@ -957,7 +957,513 @@
             "Научная фантастика"
         ],
         "comments": [],
-        "txt_file_path": "books/built-in function id.А вдруг они победят.txt",
-        "img_file_path": "images/nopic.gif"
+        "txt_file_path": "books/books/built-in function id.А вдруг они победят.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "А вдруг",
+        "author": "Грешнов Михаил",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.А вдруг.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "А все из-за любви",
+        "author": "Гуларт Рон",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Очень точное название. Нельзя в любовных делах полагаться на других, нужно самому принимать решения. О цене ошибки, ее последствиях..."
+        ],
+        "txt_file_path": "books/books/built-in function id.А все из-за любви.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "А всходы будут не скоро",
+        "author": "Чешко Федор",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.А всходы будут не скоро.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "А вы не верили",
+        "author": "Ягупова Светлана",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.А вы не верили.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "А за тобой придет генерал",
+        "author": "Воробьев Борис",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.А за тобой придет генерал.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "А жизнь идёт",
+        "author": "Бояндин Константин",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.А жизнь идёт.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Ааст Ллун - архитектор неба",
+        "author": "Гуревич Георгий Иосифович",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "В детстве зачитывалась этой книгой, но и тогда поражала как сила воли человеческая, так и то, что нерешенные проблемы были, есть и всегда будут.",
+            "Сначала тяжело было читать, много непонятного, но затем втянувшись не могла оторваться. Интересное повествование путешествия главного героя, описываются мелкие детали жизни разных народов.",
+            "Вся советская фантастика прекрасна."
+        ],
+        "txt_file_path": "books/books/built-in function id.Ааст Ллун - архитектор неба.txt",
+        "img_file_path": "books/images/18981.jpg"
+    },
+    {
+        "title": "Абадон",
+        "author": "Купцов Василий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абадон.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абицелла",
+        "author": "Попогребский П",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абицелла.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абракадабра",
+        "author": "Рассел Эрик Фрэнк",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "забавная история. Рекомендую)",
+            "Вот история о том, до чего может довести желание во что бы то ни стало угодить проверяющему чиновнику! Да уж, и что ж делать-то ему теперь?... ",
+            "Оргазм просто! Жаль, что читал впервые ещё в детстве! Рассела рекомендую для всех возрастов!"
+        ],
+        "txt_file_path": "books/books/built-in function id.Абракадабра.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютная Энциклопедия. Том 2",
+        "author": "Диксон Гордон",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Horoschaya zahvatyvayuschaya kniga, spasibo vam otdohnul."
+        ],
+        "txt_file_path": "books/books/built-in function id.Абсолютная Энциклопедия. Том 2.txt",
+        "img_file_path": "books/images/18987.jpg"
+    },
+    {
+        "title": "Абсолютная гарантия",
+        "author": "Иванов Борис",
+        "genres": [
+            "Детективная фантастика",
+            "Космическая фантастика",
+            "Научная фантастика"
+        ],
+        "comments": [
+            "книга, как и вся серия, как и все творчество автора очень хороша. Настоятельно рекомендую.",
+            "Так... Почитать можно что бы время убить.",
+            "Спасибо автору за книгу! Люблю фантастику.",
+            "Одолел только одну треть книги - очень нудная и не интересная книга.\nПовествование рваное, сюжет не захватывает, ощущения фантастики - нет.\nОстальные книги этого автора читаются еще труднее. НЕ советую.",
+            "Книга довольно таки интересная. Сразу, так сказать, с головой в сюжет. Автор -- молодец.",
+            "Очень запутано в начале, многое не связанно между собой, но написано оригинально.",
+            "Временами не фантастика, временами фантастика. Сюжет скачет. Но дочитал до конца, захватило. Интересно, есть ли продолжение у автора по этой теме.",
+            "Книга очень понравилась, не фаст фуд, несколько сюжетных линий, не плоский мир, автор создал целостную картину, включив и философию, и религию, и фантазию.",
+            "Интересный фантастический детектив. Советую.",
+            "Хорошая книга. Но не фантастика:)",
+            "Интересный сюжет, читала даже больше как детектив, чем как фантастику! Мне понравилось!",
+            "Очень понравилась. Детектив+фантастика.",
+            "Интересный фантастический детектив.",
+            "Заинтриговали...",
+            "Тянула как жвачку, даже до середины не дошла, нудятина.",
+            "Прикольно, мне понравилось.",
+            "Вполне можно прочитать, время пройдёт с удовольствием.",
+            "Написано блестяще, только конец на месте автора, я бы сделала другим. А-то получилось, что книга для взрослых, а заканчивается подростковыми соплями. Здесь это смешение не очень уместно!",
+            "Отличная книга. Обязательно читать до конца!!!",
+            "Очень прилично!"
+        ],
+        "txt_file_path": "books/books/built-in function id.Абсолютная гарантия.txt",
+        "img_file_path": "books/images/18988.jpg"
+    },
+    {
+        "title": "Абсолютная полиция",
+        "author": "Лисин Валерий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютная полиция.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютная правда",
+        "author": "Коростелев Дмитрий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютная правда.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютная пустота (предисловие)",
+        "author": "Лем Станислав",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "А что писать, я ничего не нашла! Где это предесловие?"
+        ],
+        "txt_file_path": "books/books/built-in function id.Абсолютная пустота (предисловие).txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютная технократия",
+        "author": "Альдани Лино",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Ожидала большего. Идея очень интересная, но в рассказе не раскрыта до конца!"
+        ],
+        "txt_file_path": "books/books/built-in function id.Абсолютная технократия.txt",
+        "img_file_path": "books/images/18993.jpg"
+    },
+    {
+        "title": "Абсолютно невозможно",
+        "author": "Силверберг Роберт",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютно невозможно.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютное Оружие",
+        "author": "Ершов Юрий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютное Оружие.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютное оружие Горгон",
+        "author": "Щербаков Владимир",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютное оружие Горгон.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютное счастье",
+        "author": "Якименко Константин",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Спасибо автору! Рассказ не для всех, но для тех кто пытается понять суть жизни. Вцелом интересно и необычно!",
+            "Не пожалей 15 минут -прочти."
+        ],
+        "txt_file_path": "books/books/built-in function id.Абсолютное счастье.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютное время",
+        "author": "Бялецкий Януш",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютное время.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абсолютный хрум",
+        "author": "Тарабанов Дмитрий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абсолютный хрум.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абстиненция",
+        "author": "Нестеренко Юрий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абстиненция.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Абстрактное мышление",
+        "author": "Берендеев Кирилл",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Абстрактное мышление.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Ад для флибустьеров",
+        "author": "Гаррисон Гарри",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Люблю книги этого автора. Жена тоже в восторге.",
+            "С детства люблю Гариссона когда читаю отдыхаю.",
+            "Мне очень нравятся книги Гарри Гаррисона, приятно сесть порой и почитать."
+        ],
+        "txt_file_path": "books/books/built-in function id.Ад для флибустьеров.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Ад есть ад",
+        "author": "Клейн Жерар",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "я обожаю фантастику так как это мой любимый жанр.",
+            "Отличный жанр. Хочется чтоб больше русских писателей.",
+            "книга неплохая, но прочитав один раз, больше читать не хочется.",
+            "Честно сказать, не относится к тем книгам, от которых оторваться невозможно. Так себе, неплохо.",
+            "Да веселенькая история получилась у уважаемого автора. Действительно, наша жизнь невыносима даже падшему ангелу.",
+            "Книга приятна, мне понравилась.",
+            "Мне очень понравилось, Автор продолжай в том же духе!!!",
+            "Неплохая книга. Всё таки зло слабее добра - это факт. В реальной жизни такие вот \"Дьяволы\" всегда получат по заслугам. Автору спасибо за такое интересное произведение. Никогда ранее подобного не встречала."
+        ],
+        "txt_file_path": "books/books/built-in function id.Ад есть ад.txt",
+        "img_file_path": "books/images/19005.jpg"
+    },
+    {
+        "title": "Ад - это отсутствие бога",
+        "author": "Чан Тед",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Как научная фантастика рассказ-ГАВНО.! Но как труды человека, заслуживают внимания, поэтому дочитал до конца.",
+            "Prinosu ocen bolsuyu blagadarnostza vase slujenie lyubitelym citat knig. Bolsoe vam sbasibo.",
+            "Хорошее, стилистически грамотное, продуманное произведение. Ничего лишнего. Автор с искрой таланта."
+        ],
+        "txt_file_path": "books/books/built-in function id.Ад - это отсутствие бога.txt",
+        "img_file_path": "books/images/19009.jpg"
+    },
+    {
+        "title": "Адам Вишневский-Снерг - биография",
+        "author": "Вишневский-Снерг Адам",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адам Вишневский-Снерг - биография.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адам без Евы",
+        "author": "Бестер Альфред",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Неплохой рассказ в стиле постапокалипсис. Рекомендую любителям этого жанра и тем, кому нравится научная фантастика. Алфред Бестер еще раз напоминает нам, что мы слишком безрассудно и легкомысленно относимся к жизни. Мы готовы открыть ящик Пандоры ради сиюминутных слабостей, ни о чем не задумываясь. Но все же, пусть и своеобразно, Бестер оставляет место Надежде, и это самое главное!"
+        ],
+        "txt_file_path": "books/books/built-in function id.Адам без Евы.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адам и Ева - 2",
+        "author": "Шумил Павел",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Прочитал практически все книги Павла Шумила. Великолепно. Рекомендую, не пожалеете, но лучше начать с Одинокого дракона.",
+            "Читаю, очень нравится, захватывает. Хочется узнать, что там дальше."
+        ],
+        "txt_file_path": "books/books/built-in function id.Адам и Ева - 2.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адам и Ева",
+        "author": "Никонова Наталия",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адам и Ева.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адаптация",
+        "author": "Уиндем Джон",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Интересный сюжет, но, кажется, не новый. Впрочем, от этого не становится менее захватывающим. Развязка неожиданна, поскольку могла быть любой. Рассказ о том, как в результате трагических событий отец и дочь оказались на разных планетах. И он ведь нашел ее!.."
+        ],
+        "txt_file_path": "books/books/built-in function id.Адаптация.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адаптатор",
+        "author": "Ключевский Влад",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Весьма и весьма забавная повесть. У нее есть продолжение \"горькие времена\""
+        ],
+        "txt_file_path": "books/books/built-in function id.Адаптатор.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адаптивная жена",
+        "author": "Глазков Юрий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адаптивная жена.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адепт (Адепт - 1)",
+        "author": "Куртц Кэтрин",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адепт (Адепт - 1).txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адепт Источника",
+        "author": "Авраменко Олег",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адепт Источника.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адепт Сергеев",
+        "author": "Логинов Святослав",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Хороший автор, легко читается... Да и с юмором :-)"
+        ],
+        "txt_file_path": "books/books/built-in function id.Адепт Сергеев.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адмиральский час",
+        "author": "Вершинин Лев",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адмиральский час.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адские лики Марса",
+        "author": "Нечай Дмитрий",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адские лики Марса.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адский модерн",
+        "author": "Биленкин Дмитрий Александрович",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [],
+        "txt_file_path": "books/books/built-in function id.Адский модерн.txt",
+        "img_file_path": "books/images/nopic.gif"
+    },
+    {
+        "title": "Адский огонь",
+        "author": "Азимов Айзек",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Это не книга, это рассказ! Всего одна страница. Похоже автор любит насмешничать, но своё отношение к ядерной войне, как мне кажется. он сумел высказать очень даже не плохо. В плохом настроении лучше не читать этот рассказ, может ухудшить и без того плохое настроение.",
+            "Рассказ страшноват, но интересен)))",
+            "ТО ЖЕ БЫЛО В ЧЕРНОБЫЛЕ, ЕСТЬ КНИГА \"ЧЕРНОБЫЛЬСКАЯ ХРОНИКА\", ЭТО РУКОПИСНЫЙ ПАМЯТНИК ВСЕМ КТО ТАМ ПОБЫВАЛ - НИЗКИЙ ПОКЛОН И ВЕЧНАЯ ПАМЯТЬ ТЕМ, КТО СПАСАЯ НАС, СГОРЕЛ ОТ РАДИАЦИИ. А такой рассказ прокомментировать трудно, там всё сказано, добавить больше нечего. С НАСТУПАЮЩИМ ВСЕХ!",
+            "Какое страшное сочленение нового научного и древнего, почти забытого.",
+            "Это нашим мировым ЧЛЕНАМ политбюро показать надо.",
+            "Это похоже на пророчество.",
+            "Автор смеётся не над учеными, автор смеялся над людьми не гомосапиенсами.",
+            "Сильно!",
+            "Это галлюцинации от ужаса, но...",
+            "Кроме слова ОЧУМЕТЬ ничего не идёт в голову.",
+            "Бред какой! От этого автора более замысловатый сюжет ожидала.",
+            "Как-то встречал фото самого начала взрыва яо. Не похоже :)",
+            "Рога???? Вы серьёзно?????"
+        ],
+        "txt_file_path": "books/books/built-in function id.Адский огонь.txt",
+        "img_file_path": "books/images/19036.jpg"
+    },
+    {
+        "title": "Адский житель",
+        "author": "Де Ла Мотт",
+        "genres": [
+            "Научная фантастика"
+        ],
+        "comments": [
+            "Короткая история. Похожая на страшненький рассказ. Не очень захватывает. Но прочитать можно."
+        ],
+        "txt_file_path": "books/books/built-in function id.Адский житель.txt",
+        "img_file_path": "books/images/nopic.gif"
     }
 ]

@@ -28,6 +28,7 @@ books_info = [
     for book in books_data
 ]
 
+
 books_per_page = 10
 total_pages = math.ceil(len(books_info) / books_per_page)
 
