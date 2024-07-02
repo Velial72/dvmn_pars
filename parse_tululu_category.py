@@ -35,7 +35,8 @@ def main():
                         default=get_last_page_number(url=main_page))
     parser.add_argument('-f', '--dest_folder', 
                         help='указать название директории для загрузок', 
-                        type=str)
+                        type=str,
+                        default='media')
     parser.add_argument('-i', '--skip_imgs', 
                         help='не скачивать картинки', 
                         action='store_true')
